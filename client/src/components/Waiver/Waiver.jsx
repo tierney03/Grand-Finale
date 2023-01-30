@@ -8,15 +8,14 @@ const Waiver = () => {
     width: "100%",
   };
   return (
-    <div className="waiver">
-      <div className="embed-responsive embed-responsive-16by9">
+    <div className='waiver'>
+      <div className='embed-responsive embed-responsive-16by9'>
         <iframe
-          class="embed-responsive-item"
-          title="fitness waiver"
+          class='embed-responsive-item'
+          title='fitness waiver'
           style={styles}
           src={URL}
         ></iframe>
-        {/* <button onClick={() => window.location.href = 'https://form.jotform.com/230127028620141'}>Waiver</button> */}
       </div>
     </div>
   );
